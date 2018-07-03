@@ -2,7 +2,7 @@
 
 -実装済み
 
- -UnionFind木
+	-UnionFind木
 
 -実装予定
 
