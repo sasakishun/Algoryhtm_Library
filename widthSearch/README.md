@@ -17,11 +17,11 @@
 
 # Queueの使い方(python3)
 	- import queue
-	- インスタンス化 '''queue.Queue()'''
-	- ポップ'''queue.put(variable)'''
-	- プッシュ'''queue.get()'''
-	- サイズ取得'''queue.qsize()'''
+	- インスタンス化 ```queue.Queue()```
+	- ポップ```queue.put(variable)```
+	- プッシュ```queue.get()```
+	- サイズ取得```queue.qsize()```
 # Stack(List)の使い方(python3)
-    - ポップ'''list.pop()'''
-    - プッシュ'''append()'''
-    - サイズ取得'''len()'''
+    - ポップ```list.pop()```
+    - プッシュ```append()```
+    - サイズ取得```len()```
