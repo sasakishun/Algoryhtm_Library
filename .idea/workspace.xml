@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2cc3e5cc-3989-4ca7-a438-d8c7d7a6f4ce" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/widthSearch/depthSearchABC007.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/widthSearch/README.md" afterPath="$PROJECT_DIR$/widthSearch/README.md" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/widthSearch/widthSearchOnABC007C.py" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,7 +23,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/widthSearch/README.md">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="275">
@@ -34,11 +33,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="widthSearchOnABC007C.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/widthSearch/widthSearchOnABC007C.py">
+      <file leaf-file-name="widthSearchABC007C.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/widthSearch/widthSearchABC007C.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="501">
-              <caret line="35" column="14" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="35" selection-end-column="14" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -213,6 +212,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
           <caret line="11" column="4" lean-forward="false" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/widthSearch/widthSearchABC007C.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
