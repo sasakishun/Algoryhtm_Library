@@ -5,6 +5,7 @@
 	- UnionFind木
 	- 重み付きUnionFind木(WeightedUnionFind.py)2018/11/11
 	- IMOS法(imos.py)2018/11/12
+		- 表と領域（左下と右上により一意で定められるやつなど）が出てきたらこれを考える
 	- 幅優先探索(widthSearchABC007.py)2018/11/13
  	- 深さ優先探索(depthSearchATC001A.py)20218/11/13
 - 実装予定
