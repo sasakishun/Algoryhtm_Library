@@ -32,5 +32,6 @@
 	- 約数列挙```$$O(\sqrt{n})$$```
 	- 素数判定```is_prime()```
 	- 素因数分解```factorization.py```
+	- 「リスト<-->文字列」変換```convertListToString.py```
 - 目標
 	ABCをCまで、ARCをBまで全部解く 
