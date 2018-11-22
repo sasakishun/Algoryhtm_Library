@@ -35,3 +35,6 @@
 	- 「リスト<-->文字列」変換```convertListToString.py```
 - 目標
 	ABCをCまで、ARCをBまで全部解く 
+- 注意事項
+	- 深いコピーは(copy.deepcopy(配列))
+	
