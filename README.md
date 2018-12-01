@@ -10,7 +10,7 @@
  	- 深さ優先探索(depthSearchATC001A.py)2018/11/13
 	- bit全探索(bitSearch.py)2018/11/20
 	- 経路総数(dijkstra/routeCountingABC021C.py)2018/12/01
-		dijkstra->トポロジカルソート->経路総数DP
+		- dijkstra->トポロジカルソート->経路総数DP
 - 実装予定
 	- ダイクストラ法（ライブラリ化）
 	- 二分探索木（ライブラリ化）、発見できなかった場合の不等号処理も記述
