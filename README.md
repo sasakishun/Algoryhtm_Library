@@ -36,6 +36,7 @@
 	- 素数判定```is_prime()```
 	- 素因数分解```factorization.py```
 	- 「リスト<-->文字列」変換```convertListToString.py```
+	- 組み合わせ数は```math.factorial(n) // (math.factorial(n - r) * math.factorial(r))```
 - 目標
 	ABCをCまで、ARCをBまで全部解く 
 - 注意事項
