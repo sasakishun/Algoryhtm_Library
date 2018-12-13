@@ -6,6 +6,7 @@
 	- 重み付きUnionFind木(WeightedUnionFind.py)2018/11/11
 	- IMOS法(imos.py)2018/11/12
 		- 表と領域（左下と右上により一意で定められるやつなど）が出てきたらこれを考える
+		- 区間[a,b]の要素和はimos[b]-imos[a-1]であることに注意
 	- 幅優先探索(widthSearchABC007.py)2018/11/13
  	- 深さ優先探索(depthSearchATC001A.py)2018/11/13
 	- ダイクストラ法(dijkstra.py)2018/11/14 O(E*LogV)
