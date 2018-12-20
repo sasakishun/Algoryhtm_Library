@@ -1,9 +1,11 @@
 def gcd(a, b):
-    if b == 0:
-        return a
-    return gcd(b, a % b)
+    while b > 0:
+        tmp = a
+        a = b
+        b = tmp % b
+    return a
 
 
 def lcm(a, b):
-    return int((a * b) / gcd(a, b))
-
+    tmp = gcd(a, b)
+    return (a//tmp) * b
