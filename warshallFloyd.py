@@ -1,5 +1,6 @@
 import copy
 
+
 # 入力:隣接行列　出力:各頂点間の最短距離
 class warshallFloyd:
     def __init__(self, adj):
@@ -20,6 +21,7 @@ class warshallFloyd:
                         self.dis[i][j] = self.dis[i][k] + self.dis[k][j]
         return self.dis
 
+
 n, m = [int(i) for i in input().split()]
 adj = [[0 for _ in range(n)] for j in range(n)]
 for i in range(m):
@@ -37,3 +39,10 @@ for i in range(n):
     # print(dis[i])
     minDis = min(minDis, max(dis[i]))
 print(minDis)
+
+"""
+高速化したいなら
+下のようにライブラリを使うこと
+import scipy.sparse.csgraph as ssc
+距離行列dis = ssc.floyd_warshall(隣接行列adj)
+"""
