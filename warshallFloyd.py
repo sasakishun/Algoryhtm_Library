@@ -1,3 +1,27 @@
+# 入力 : 隣接行列
+# 出力 : 各ノード間の距離行列
+def war(dis):
+    size = len(dis)
+    # 非接続要素が「float("inf")」なら省略可
+    for i in range(size):
+        for j in range(size):
+            if i != j and dis[i][j] == 0:
+                dis[i][j] = float("inf")
+    for k in range(size):
+        for i in range(size):
+            for j in range(size):
+                if dis[i][j] > dis[i][k] + dis[k][j]:
+                    dis[i][j] = dis[i][k] + dis[k][j]
+    return dis
+
+
+"""
+高速化したいなら
+下のようにライブラリを使うこと
+import scipy.sparse.csgraph as ssc
+距離行列dis = ssc.floyd_warshall(隣接行列adj)
+"""
+"""
 import copy
 
 
@@ -39,10 +63,4 @@ for i in range(n):
     # print(dis[i])
     minDis = min(minDis, max(dis[i]))
 print(minDis)
-
-"""
-高速化したいなら
-下のようにライブラリを使うこと
-import scipy.sparse.csgraph as ssc
-距離行列dis = ssc.floyd_warshall(隣接行列adj)
 """
