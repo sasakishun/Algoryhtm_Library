@@ -10,6 +10,7 @@
 	- 幅優先探索(widthSearchABC007.py)2018/11/13
  	- 深さ優先探索(depthSearchATC001A.py)2018/11/13
 	- ダイクストラ法(dijkstra.py)2018/11/14 O(E*LogV)
+		- 非負の辺にのみ対応（負対応はワーシャルフロイドとベルマンフォード）
 	- bit全探索(bitSearch.py)2018/11/20
 	- 経路総数(dijkstra/routeCountingABC021C.py)2018/12/01
 		- dijkstra -> トポロジカルソート -> 経路総数DP
