@@ -18,8 +18,8 @@
 # Queueの使い方(python3)
 	- import queue
 	- インスタンス化 ```queue.Queue()```
-	- ポップ```queue.put(variable)```
-	- プッシュ```queue.get()```
+	- ポップ```queue.get()```
+	- プッシュ```queue.put(variable)```
 	- サイズ取得```queue.qsize()```
 # Stack(List)の使い方(python3)
     - ポップ```list.pop()```
