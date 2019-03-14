@@ -48,6 +48,7 @@
 	- 組み合わせ数は```math.factorial(n) // (math.factorial(n - r) * math.factorial(r))```
 - 目標
 	- ABCをCまで(Cの残り1門が計算量的に難しいかもしれない 2018/12/31)->ABC完了(2019/01/11)、ARCをBまで全部解く、その後ABCのDを全部解く
+		- 400点問題を優先して解く
 	- マイページ(https://atcoder.jp/users/shunsasa)
 - 注意事項
 	- 深いコピーは```copy.deepcopy(配列)```
